@@ -156,7 +156,7 @@ var s, beast = {
 		book_icon.onload = function() {
 			$('nav.slides-pagination').css('visibility', 'visible');
 		}
-		book_icon.src = './_img/book_icon.png';
+		book_icon.src = './img/book_icon.png';
 	},
 
 	posterReveal: function(){
