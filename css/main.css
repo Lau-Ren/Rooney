@@ -280,7 +280,7 @@ header .logo {
     display: inline-block;
     width: 120px;
     height: 120px;
-    background: url(../img/circlelogo.png) no-repeat center center;
+    background: url(../img/cirLogo.png) no-repeat center center;
     background-size: contain;
 }
 header .logo.rotate {
@@ -404,7 +404,7 @@ header:hover span {
   display: inline-block;
   width: 120px;
   height: 120px;
-  background: url(../img/circlelogo.png) no-repeat center center;
+  background: url(../img/cirLogo.png) no-repeat center center;
   background-size: contain;
 }
 .black-overlay .about .about-header .brText {
@@ -1117,7 +1117,7 @@ nav.slides-navigation {
     display: inline-block;
     width: 90px;
     height: 90px;
-    background: url(../img/circleLogo.png) no-repeat center center;
+    background: url(../img/cirLogo.png) no-repeat center center;
     background-size: contain;
   }
   .black-overlay .about .about-header .brText {
