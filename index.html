@@ -17,7 +17,7 @@
 		<script src="./js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 
-<body>
+<body ng-app ="Rooney">
 <!--[if lt IE 7]><p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p><![endif]-->
 
 	<!-- Header -->
@@ -26,8 +26,10 @@
 		</div>
 
 		<h1>Bryson Rooney/Brand?</h1>
-		<br><span>About</span>
-		<br><span>CV/Bio</span>
+
+
+		<br><span><a href="#/about">About</a></span>
+		<br><span><a href="#/cv">CV/Bio</a></span>
 		<br><span>Videos</span>
 		<br><span>Photographs</span>
 	</header>
@@ -39,54 +41,20 @@
 	<div class="preloadFS"></div>
 	<div class="preloadFS2"></div>
 
-	<!-- About -->
+	<!-- black curtain -->
 	<div class="black-overlay">
-		<div class="close"></div>
-		<div class="about">
-			<div class="about-header">	
-				<!-- Brysons  circle logohere -->
-				<div class="circleLogo"></div><br>
-
-				<h1>Bryson Rooney</h1>
-				<!-- <div class="wmmText"></div><br> -->
-				<div class="about-nav">
-					<a rel="aboutS" class="aboutLink active">About</a>
-					<a rel="contactS" class="contactLink">Contact</a>
-					<!-- <a rel="partnersS" class="aboutLink">Partners + Collaborators</a> -->
-					<!-- <a rel="emailS" class="aboutLink">Mailing List</a> -->
-				</div>
-			</div>
-			<div class="about-text">
-				<div class="aboutS" style="text-align:justify" rev="About">
-					'about' text here...
-					<br><br>Some more 'about' text here....
-				</div>
-				<div class="contactS" rev="Contact">
-					General Inquiries
-					<br><a href="mailto:info@the-most.com">email@email.com</a>
-					<br><br>Bryson Rooney
-					<br>Address?
-					<br>Address?
-				</div>
-				<!-- <div class="partnersS centered" rev="Partners">
-					Coming Soon
-				</div> -->
-				<!-- <div class="emailS centered" rev="Mailing List">
-					<form name="ccoptin" action="http://visitor.r20.constantcontact.com/d.jsp" target="_blank" method="post" style="margin-bottom:2;">
-					<input type="hidden" name="llr" value="futhpymab">
-					<input type="hidden" name="m" value="1113217814149">
-					<input type="hidden" name="p" value="oi">
-					<input onfocus="if(this.value == 'Enter Email') { this.value = ''; }" 
-						   onblur="if(this.value == '') { this.value = 'Enter Email'; }"
-						   type="text" name="ea" size="20" value="Enter Email">
-					<br><input type="submit" name="go" value="Submit" class="submit">
-					</form>
-				</div> -->
-			</div>
-			<div class="site-by"><a href="http://laurencolls.com">Site: Lauren colls</a></div>
-		</div>
+	
 	</div>
 	
+
+	<!-- About -->
+
+	<div class="black-overlay">
+		<div class="close"></div>
+		<!-- view here! -->
+		 <div ng-view></div>
+	</div>
+
 
 		<!--Projects start -->
 	<div id="slides">
@@ -171,6 +139,11 @@
   ga('send', 'pageview');
 
 </script>
+
+ <!-- Vendor: Angular -->
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js"></script>
+
 <script src="./js/jquery.superslides-texthash.js"></script>
 <script src="./js/plugins.js"></script>
 <script src="./js/beast.js"></script>

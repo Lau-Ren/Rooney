@@ -1,3 +1,43 @@
+
+
+/**
+ * Main AngularJS Web Application
+ */
+var Rooney = angular.module('Rooney', [
+  'ngRoute'
+]);
+
+/**
+ * Configure the Routes
+ */
+Rooney.config(['$routeProvider', function ($routeProvider) {
+  $routeProvider
+    // Home
+    .when("/", {templateUrl: "partials/home.html", controller: "PageCtrl"})
+    // Pages
+    .when("/cv", {templateUrl: "partials/cv.html", controller: "PageCtrl"})
+    .when("/about", {templateUrl: "partials/about.html", controller: "PageCtrl"})
+
+    // else 404
+    .otherwise("/404", {templateUrl: "404.html", controller: "PageCtrl"});
+}]);
+
+/**
+ * Controls all other Pages
+ */
+Rooney.controller('PageCtrl', function (/* $scope, $location, $http */) {
+  console.log("Page Controller reporting for duty.");
+
+
+});
+
+
+
+
+
+
+
+
 var s, beast = {
 
 	config: {
