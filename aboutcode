@@ -1,0 +1,46 @@
+	<div class="black-overlay">
+		<div class="close"></div>
+		<div class="about">
+			<div class="about-header">	
+				<!-- Brysons  circle logohere -->
+				<div class="circleLogo"></div><br>
+
+				<h1>Bryson Rooney</h1>
+				<!-- <div class="wmmText"></div><br> -->
+				<div class="about-nav">
+					<a rel="aboutS" class="aboutLink active">About</a>
+					<a rel="contactS" class="contactLink">Contact</a>
+					<!-- <a rel="partnersS" class="aboutLink">Partners + Collaborators</a> -->
+					<!-- <a rel="emailS" class="aboutLink">Mailing List</a> -->
+				</div>
+			</div>
+			<div class="about-text">
+				<div class="aboutS" style="text-align:justify" rev="About">
+					'about' text here...
+					<br><br>Some more 'about' text here....
+				</div>
+				<div class="contactS" rev="Contact">
+					General Inquiries
+					<br><a href="mailto:info@the-most.com">email@email.com</a>
+					<br><br>Bryson Rooney
+					<br>Address?
+					<br>Address?
+				</div>
+				<!-- <div class="partnersS centered" rev="Partners">
+					Coming Soon
+				</div> -->
+				<!-- <div class="emailS centered" rev="Mailing List">
+					<form name="ccoptin" action="http://visitor.r20.constantcontact.com/d.jsp" target="_blank" method="post" style="margin-bottom:2;">
+					<input type="hidden" name="llr" value="futhpymab">
+					<input type="hidden" name="m" value="1113217814149">
+					<input type="hidden" name="p" value="oi">
+					<input onfocus="if(this.value == 'Enter Email') { this.value = ''; }" 
+						   onblur="if(this.value == '') { this.value = 'Enter Email'; }"
+						   type="text" name="ea" size="20" value="Enter Email">
+					<br><input type="submit" name="go" value="Submit" class="submit">
+					</form>
+				</div> -->
+			</div>
+			<div class="site-by"><a href="http://laurencolls.com">Site: Lauren colls</a></div>
+		</div>
+	</div>
