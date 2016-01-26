@@ -17,7 +17,6 @@ Rooney.config(['$routeProvider', function ($routeProvider) {
     // Pages
     .when("/cv", {templateUrl: "partials/cv.html", controller: "PageCtrl"})
     .when("/about", {templateUrl: "partials/about.html", controller: "PageCtrl"})
-    .when("/video", {templateUrl: "partials/video.html", controller: "PageCtrl"})
 
     // else 404
     .otherwise("/404", {templateUrl: "404.html", controller: "PageCtrl"});
