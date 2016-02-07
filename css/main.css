@@ -1116,7 +1116,7 @@ nav.slides-navigation {
     display: inline-block;
     width: 90px;
     height: 90px;
-    background: url(../img/cirLogo.png) no-repeat center center;
+    background: url(../img/cirLogo.png) no-repeat;
     background-size: contain;
   }
   .black-overlay .about .about-header .brText {
