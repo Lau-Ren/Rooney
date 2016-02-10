@@ -684,11 +684,12 @@ nav.slides-pagination .dot:last-child {
 }
 .container .content {
   display: table;
-  position: relative;
+  position: absolute;
   margin: 0 auto;
   height: 100%;
   width: 960px;
   text-align: center;
+  top: 20px;
   z-index: 10;
 }
 .container .content .vertical-align {
@@ -1171,4 +1172,36 @@ nav.slides-navigation {
   .black-overlay .about .site-by a:hover {
     color: #fff;
   }
+}
+
+
+
+.thumb-container {
+ width: 80%;
+ margin: 30px auto;
+ overflow: hidden;
+
+}
+.thumb-container .thumb {
+   float: left;
+ border: 1px solid white;
+ 
+ width: 16%;
+ margin:  2% 2% 100px 2%; 
+}
+
+.thumb-container .thumb img {
+ max-width: 100%;
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ border-radius: 5px;;
+ 
+
+}
+
+
+
+@media only screen and (max-width : 940px),
+only screen and (max-device-width : 940px){
+ .galleryItem {width: 21%;}
 }
